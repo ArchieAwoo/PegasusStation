@@ -1,6 +1,6 @@
 /singleton/origin_item/culture/dominia
 	name = "Empire of Dominia"
-	desc = "The Empire of Dominia (often simply referred to as \"the Empire\") is an autocratic monarchy that is heavily influenced by its state religion, the Moroz Holy Tribunal, which is often regarded as an offshoot of old Earth faiths. Imperial society is sharply divided between Morozians, which are themselves divided between noble Primaries and commoner Secondaries, and Ma'zals, which make up the population of its conquered worlds. Militaristic and expansionist, the Empire has been increasingly brought into conflict with its neighbors: the Serene Republic of Elyra and Coalition of Colonies. Dominians are often stereotyped as militant, religious, and egotistical."
+	desc = "TBD"
 	possible_origins = list(
 		/singleton/origin_item/origin/dominia_noble,
 		/singleton/origin_item/origin/moroz,
@@ -13,11 +13,7 @@
 
 /singleton/origin_item/origin/dominia_noble
 	name = "Dominian Noble"
-	desc = "The Primaries are the noble and liturgical classes of the Dominian Empire's humans, though the noble class of Dominia often sees Secondaries adopted into it. \
-			Due to centuries of eating better than their commoner and lay counterparts, Primaries are physically larger and more imposing than their Secondary cousins. \
-			Secondaries that are elevated to nobility, though still primaries, tend to be slightly shorter than older families. \
-			Dominians (or Morozians, if you are from the former Confederated States) of this social class are not typically found in \
-			Fisanduh due to its lack of nobility."
+	desc = "TBD"
 	important_information = "Dominian primaries have unique expectations that, when broken, may result in administrative action or your character being extradited, executed by the Empire or worse. Make sure to read the Dominian pages thoroughly."
 	possible_accents = list(ACCENT_DOMINIA_HIGH)
 	possible_citizenships = list(CITIZENSHIP_DOMINIA)
@@ -27,7 +23,7 @@
 
 /singleton/origin_item/origin/moroz
 	name = "Moroz"
-	desc = "Morozians represent the peak of Imperial society. They are the nearest to the Emperor, the Goddess, and live upon the Imperial capital planet. But Morozians themselves are not a homogenous group: they are divided between typical Morozians - both Secondaries and Primaries - rebellious Fisanduhians, which still fight to liberate what is left of their mountainous home from the wider Empire, and the nomadic Lyodii that call Moroz's icecaps home."
+	desc = "TBD"
 	possible_accents = list(ACCENT_DOMINIA_VULGAR, ACCENT_FISANDUH, ACCENT_DOMINIA_LYODII)
 	possible_citizenships = CITIZENSHIPS_DOMINIA
 	possible_religions = list(RELIGION_MOROZ)
@@ -36,7 +32,7 @@
 
 /singleton/origin_item/origin/fisanduh
 	name = "Fisanduh"
-	desc = "A mountainous region of Moroz that is technically under Imperial control, Fisanduh has long been a zone of conflict between the Dominian military and the remains of the Confederated States of Fisanduh, the democratic state that once controlled the region. Fisanduh has been devastated by decades of war and insurgency, with stretches of land rendered uninhabitable by artillery exchanges during the War of Moroz and an economy stuck in freefall."
+	desc = "TBD"
 	possible_accents = list(ACCENT_FISANDUH)
 	possible_citizenships = list(CITIZENSHIP_DOMINIA, CITIZENSHIP_BIESEL, CITIZENSHIP_COALITION, CITIZENSHIP_SOL)
 	possible_religions = list(RELIGION_MOROZ, RELIGION_NONE, RELIGION_CHRISTIANITY, RELIGION_ISLAM, RELIGION_BUDDHISM, RELIGION_HINDU, RELIGION_TAOISM, RELIGION_JUDAISM, RELIGION_SHINTO, RELIGION_SIKHISM, RELIGION_OTHER)
@@ -45,14 +41,14 @@
 
 /singleton/origin_item/origin/core_worlds
 	name = "Imperial Core Worlds"
-	desc = "The Imperial Core consists of worlds colonized mostly by Morozians with little involvement by Ma'zals such as Zhurong, Alterim Obrirava, and Alterim Balteulis. Much of the culture of these planets is shared with the Imperial capital of Moroz, and the pomp-and-circumstance of Dominian noble life is well alive on these worlds as well. Much of the wealth of Dominians living in the Imperial Core has been built off of resources extracted from worlds conquered by the Empire. In the Empire, to be Morozian is to bear a badge of honor - yet with that honor comes an understanding that one must act as a Morozian, and not debase oneself to the level of a Ma'zal."
+	desc = "TBD"
 	possible_accents = list(ACCENT_DOMINIA_VULGAR, ACCENT_DOMINIA_ZHURONG)
 	possible_citizenships = CITIZENSHIPS_DOMINIA
 	possible_religions = list(RELIGION_MOROZ)
 
 /singleton/origin_item/origin/novi_jadran
 	name = "Novi Jadran"
-	desc = "A tundra planet peacefully annexed by the Empire of Dominia fifty years ago, where the influence of the local nobles is much stronger than anywhere else. Novi Jadran is commonly viewed as a very loyal colony, with its inhabitants adhering to a mostly rural lifestyle. The planet itself is behind in many technological aspects such as electricity and urbanization, with most of the population living outside of its few large urban population centers: this is due to neglect on the local nobles' part, who prefer to host lavish parties instead."
+	desc = "TBD"
 	possible_accents = list(ACCENT_DOMINIA_NOVIJADRAN)
 	possible_citizenships = CITIZENSHIPS_DOMINIA
 	possible_religions = list(RELIGION_MOROZ)
@@ -61,15 +57,15 @@
 
 /singleton/origin_item/origin/imperial_frontier
 	name = "Imperial Frontier"
-	desc = "The Imperial Frontier consists of worlds conquered by the Empire of Dominia and mostly populated by Ma'zals. Military governments are common here, as are the often-hated viceroyalties that the Empire has become infamous for abroad. The planets of the Imperial Frontier stand at varying levels of development, but most of their resources are sent back to the region that truly matters to the Empire: the Imperial Core."
+	desc = "TBD"
 	possible_accents = list(ACCENT_DOMINIA_FRONTIER, ACCENT_DOMINIA_SUNREACH, ACCENT_COC)
 	possible_citizenships = CITIZENSHIPS_DOMINIA
 	possible_religions = list(RELIGION_NONE, RELIGION_MOROZ, RELIGION_CHRISTIANITY, RELIGION_ISLAM, RELIGION_BUDDHISM, RELIGION_HINDU, RELIGION_TAOISM, RELIGION_JUDAISM, RELIGION_OTHER)
 
 /singleton/origin_item/origin/dominian_exile
 	name = "Dominian Exile"
-	desc = "Made up of the worst of Imperial society, these Edict Breakers and assorted ne'er-do-wells have been banished or fled from the Empire for a variety of reasons. Some are criminals and deserters, others have more noble reasons, such as fleeing due to religious persecution or political oppression. One thing is common among them: they cannot go home again without facing the judgment of the Empire's courts."
-	important_information = "This origin is for the purposes of playing Edict Breakers that have fled the Empire of Dominia's justice. It is <b>NOT</b> an excuse to play a character with a Dominian accent that is totally divorced from the Empire."
+	desc = "TBD"
+	important_information = "TBD"
 	possible_accents = list(ACCENT_DOMINIA_VULGAR, ACCENT_DOMINIA_NOVIJADRAN, ACCENT_DOMINIA_FRONTIER, ACCENT_DOMINIA_LYODII, ACCENT_DOMINIA_SUNREACH, ACCENT_DOMINIA_ZHURONG)
 	possible_citizenships = list(CITIZENSHIP_BIESEL, CITIZENSHIP_COALITION)
 	possible_religions = list(RELIGION_MOROZ, RELIGION_NONE, RELIGION_CHRISTIANITY, RELIGION_ISLAM, RELIGION_BUDDHISM, RELIGION_HINDU, RELIGION_TAOISM, RELIGION_JUDAISM, RELIGION_SHINTO, RELIGION_SIKHISM, RELIGION_OTHER)
