@@ -5,7 +5,6 @@
 /datum/citizenship/golden_deep
 	name = CITIZENSHIP_GOLDEN
 	description = "TBD"
-	find themselves the target of job opportunities in exchange for citizenship."
 	consular_outfit = /obj/outfit/job/representative/consular/golden
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/golden
 
