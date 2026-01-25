@@ -21,12 +21,7 @@
 
 	mob_size = 10 //fairly lighter than the worker type.
 	taste_sensitivity = TASTE_DULL
-	blurb = "Type BA, a sub-type of the generic Type B Warriors, are the second most prominent type of Vaurca society, taking the form of hive security and military grunts. \
-	Type BA can range in size from 6ft tall to 9ft tall, and are bipedal. Unlike most other Type B's, Type BA are deprived of advanced augments, especially aboard \
-	SCC facilities. Warriors in general, unlike other types of Vaurca, are not typically passive. This means that they tend to be more suitable for combat \
-	orientated positions, more passive unlike workers. Compared to workers, they are more physically intimidating and more resistant to heat, but have a thinner carapace \
-	allowing for greater mobility at the cost of some trauma resistance. \
-	<b>Type BA are most comfortable obviously in security positions, but can rarely be found in the lower hierarchies of other departments.</b>"
+	blurb = "TBD"
 
 	heat_level_1 = 360 //Default 360
 	heat_level_2 = 400 //Default 400
@@ -94,9 +89,7 @@
 	)
 
 	mob_size = 8
-	blurb = "Type BB Warriors or \"Attendants\" are digitigrade bipeds, built to be agile and quick. They are primarily made to be scouts or serve in support positions and \
-	they excel at guerilla tactics. They can possess the same roles as regular warriors, but their speed-built forms are not as hardy. They are commonly attributed to the \
-	role of combat medics, providing medical assistance on the field, or removal of the neural socket if the individual cannot be saved." //Copied from the wiki
+	blurb = "TBD"
 
 	stamina = 100
 
@@ -142,10 +135,7 @@
 	break_cuffs = TRUE
 	mob_size = 30
 	taste_sensitivity = TASTE_DULL
-	blurb = {"Type CB Vaurcae, also known as Breeders, are the leaders of the Vaurca Society. Type C, being the only fertile caste, provide life to the Hive. Most of them, however, are not producing more eggs but in charge of hive-cells of other castes, coordinating their everyday life.<br>
-	Some Type CB Vaurcae have been recently used as representatives for their respective queens, due their keen social intelligence, making them ideal candidates for negotiating with aliens on economic and political matters. They easily grasp the nuances of social context, contracts, and systems that other castes have difficulty navigating.<br>
-	The Type C caste is not suitable for physical work and will often delegate any duties to the rest of the Vaurcae, which are below them in the hierarchy.<br>
-	<b>Vaurca Breeders can only be played as Hive Representatives of Queens affiliated to the Court of Queens.</b>"}
+	blurb = "TBD"
 
 	age_max = 30000
 	default_genders = list(FEMALE)
@@ -377,10 +367,7 @@
 	mob_weight = MOB_WEIGHT_SUPERHEAVY
 	mob_strength = MOB_STRENGTH_STRONG
 	taste_sensitivity = TASTE_DULL
-	blurb = {"Type E Vaurca, otherwise known as the Bulwarks, are a new bodyform derived from the worker caste in a collaboration by the C'thur and Nralakk scientists. Originally only the C'thur had access to these behemoths, but after a short amount of time, the bodyform started appearing in the ranks of the Zo'ra and K'lax as well, causing an even more strained relationship between the Hives.<br>
-Similar to Workers, Bulwarks are generally passive, and prefer to flee a fight rather than resist. Though due to their speed, they may still choose to defend themselves should they be unable to properly escape a battle. The main exception to this is when another Vaurca is in danger. When this occurs, they tend to put themselves in between the attacker and the Vaurca, acting as a shield of sorts. They won't go out of their way to take down the attacker, but will ensure the others get away safely.<br>
-Bulwarks are much larger and have significantly thicker carapaces than most Vaurca, making them slow but resistant to most hits, including a complete immunity to radiation. Their powerful arms and claws grant them stronger punches, enough to bend metal, and is often used to pry open non-functional doors.<br>
-<b>Type E Vaurca are typically used for heavy lifting, agricultural and industrial work, thus they can typically be found as Engineers, Cargo Technicians, Miners and similar jobs, though they can also be found in positions such as janitor and Assistant should they be needed.</b>"}
+	blurb = "TBD"
 
 	heat_level_1 = 360 //Default 360
 	heat_level_2 = 400 //Default 400

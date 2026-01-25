@@ -16,11 +16,7 @@
 	burn_mod = 1.3
 	grab_mod = 1
 
-	blurb = "IPCs with humanlike properties. Their focus is on service, civilian, and medical, but there are no \
-	job restrictions. Created in the late days of 2450, the Shell is a controversial IPC model equipped with a synthskin weave applied over its metal chassis \
-	to create an uncannily close approximation of the organic form. Early models of Shell had the advantage of being able to compose themselves of a wide \
-	variety of organic parts, but contemporary models have been restricted to a single species for the sake of prosthetic integrity. The additional weight of \
-	the synthskin on the original Hephaestus frame reduces the efficacy of the unit's already strained coolant systems, and increases charge consumption."
+	blurb = "TBD"
 
 	icobase = 'icons/mob/human_races/human/r_human.dmi'
 	deform = 'icons/mob/human_races/ipc/robotic.dmi'
@@ -145,7 +141,7 @@
 
 	slowdown = 3
 
-	blurb = "The first commercialized attempt Hephaestus Industries made at an industrial-type IPC. Designed for extra durability and increased weight loads, the first generation Industrial was considered a success, though it possessed some issues. A limited power cell and actuators designed for heavy lifting and not locomotion resulted in a slow and frequently charging machine. A special addition to the chassis makes up for these drawbacks - the ability to simply slot a suit cooling unit onto the model's back and make use of its built-in heat transferal conduits, allowing the Industrial to perform EVA without any extra peripherals such as a voidsuit."
+	blurb = "TBD"
 
 	icobase = 'icons/mob/human_races/ipc/r_industrial.dmi'
 	deform = 'icons/mob/human_races/ipc/r_industrial.dmi'
@@ -363,7 +359,7 @@
 
 	examine_color = "#688359"
 
-	blurb = "An extremely durable and heavy Industrial model branded by Hephaestus Industries. It is their improved Industrial model, with thicker plating and improved power cell. Its actuators struggle to carry the immense weight, however, making the unit quite slow. This chassis would be seen in roles where it would be dangerous or inefficient to use a less durable unit, such as engineering and mining. While this unit still possesses built-in cooling conduits, the increased plating and thickness of said plating proved a difficult challenge for the engineers to develop good cooling, so the unit suffers somewhat from increased heat loads. Overtaxing its hardware will quickly lead to overheating."
+	blurb = "TBD"
 
 	has_limbs = list(
 		BP_CHEST  = list("path" = /obj/item/organ/external/chest/ipc/industrial/hephaestus),
@@ -514,7 +510,7 @@
 
 	examine_color = "#bc4b00"
 
-	blurb = "The Xion Manufacturing Group, being a subsidiary of Hephaestus Industries, saw the original Industrial models and wanted to develop their own chassis based off of the original design. The result is the Xion Industrial model. Sturdy and strong, this chassis is quite powerful and equally durable, with an ample power cell and improved actuators for carrying the increased weight of the body. The Xion model also retains sturdiness without covering the chassis in plating, allowing for the cooling systems to vent heat much easier than the Hephaestus-brand model. This unit can perform EVA without assistance."
+	blurb = "TBD"
 
 	has_limbs = list(
 		BP_CHEST  = list("path" = /obj/item/organ/external/chest/ipc/industrial/xion),
@@ -598,7 +594,7 @@
 
 	examine_color = "#ff00ff"
 
-	blurb = "Being a corporation focused primarily on medical sciences and treatments, Zeng-Hu Pharmaceuticals had little interest in the market of synthetics in the beginning (especially considering a good portion of Zeng-Hu employees are Skrellian). However, after seeing the advances in almost all fields of the galactic market after the advent of synthetics, Zeng-Hu set aside some funds for their own robotics department, focused mainly on medical service and even science related operations. Having taken some inspiration from biological life, the chassis has an interesting leg design: digitigrade legs provide the chassis with enhanced speed. A downside to this development was the reduction of metals on the chassis. Most plates covering the sensitive interior electronics are polymer casts to reduce the weight of the unit, resulting in a not-so-durable android."
+	blurb = "TBD"
 
 	has_organ = list(
 		BP_BRAIN   = /obj/item/organ/internal/machine/posibrain,
@@ -665,7 +661,7 @@
 
 	examine_color = "#00afea"
 
-	blurb = "Bishop Cybernetics frames are among the sleeker, flashier frames widely produced for IPCs. This brand-new, high end design has a focus on pioneering energy efficiency without sacrifice, fitting to Bishop's company vision. Cutting-edge technology in power management means this frame can operate longer while running more demanding processing algorithms than most. This extreme push to minimize power draw means this frame can be equipped with all sorts of extra equipment: a hologram for a face, flashing status displays and embedded lights solely meant for show. The one thing holding this frame back from perfection is the same common criticism leveled against almost all Bishop products: the shiny chrome and glass meant to put all of this tech on display means it's exposed and fragile. It's because of Bishop's unrelenting pursuit of vanity in their designs that these frames often suffer from issues with reliability and struggle to safely perform the same work as cheaper, more rugged frames."
+	blurb = "TBD"
 
 	has_organ = list(
 		BP_BRAIN   = /obj/item/organ/internal/machine/posibrain,
@@ -713,7 +709,7 @@
 	short_name = "unbran"
 	name_plural = "Unbranded Frames"
 
-	blurb = "A simple and archaic robotic frame, used mostly as a temporary body before posibrains are transferred to any specialized chassis."
+	blurb = "TBD"
 
 	icobase = 'icons/mob/human_races/ipc/robotic.dmi'
 	deform = 'icons/mob/human_races/ipc/robotic.dmi'

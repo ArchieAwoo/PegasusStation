@@ -61,12 +61,7 @@
 
 	hearing_sensitivity = HEARING_SENSITIVE // Default HEARING_NORMAL
 
-	blurb = "The Tajaran race is a species of feline-like bipeds hailing from the planet of Adhomai in the S'rendarr \
-	system. They have been brought up into the space age by the Humans and Skrell, who alledgedly influenced their \
-	eventual revolution that overthrew their ancient monarchies to become totalitarian - and NanoTrasen friendly - \
-	republics. Adhomai is still enduring a global war in the aftermath of the new world order, and many Tajara are \
-	fleeing their homeworld to seek safety and employment in human space. They prefer colder environments, and speak \
-	a variety of languages, mostly Siik'Maas, using unique inflections their mouths form."
+	blurb = "TBD"
 
 	cold_level_1 = 200 //Default 260
 	cold_level_2 = 140 //Default 200

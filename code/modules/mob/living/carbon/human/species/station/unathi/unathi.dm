@@ -64,13 +64,7 @@
 	mob_weight = MOB_WEIGHT_HEAVY
 	climb_coeff = 1.35
 
-	blurb = "A heavily reptillian species, Unathi (or 'Sinta as they call themselves) hail from the Uuosa-Eso \
-	system, which roughly translates to 'burning mother'. A relatively recent addition to the galactic stage, they \
-	suffered immense turmoil after the cultural and economic disruption following first contact with humanity.<br><br>\
-	With their homeworld of Moghes suffering catastrophic climate change from a nuclear war in the recent past, the \
-	Hegemony that rules the majority of the species struggles to find itself in a galaxy filled with dangers far \
-	greater than themselves. They mostly hold ideals of honesty, virtue, martial combat and spirituality above all \
-	else.They prefer warmer temperatures than most species."
+	blurb = "TBD"
 
 	cold_level_1 = 280 //Default 260 - Lower is better
 	cold_level_2 = 220 //Default 200
