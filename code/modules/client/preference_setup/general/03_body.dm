@@ -960,7 +960,8 @@ GLOBAL_LIST_INIT(valid_bloodtypes, list(
 	if(!pref.species_preview || !(pref.species_preview in GLOB.all_species))
 		pref.species_preview = SPECIES_HUMAN
 
-	user << link("byond://?src=[REF(src)];set_species=[html_encode(pref.species_preview)]")
+	// user << browse("byond://?src=[REF(src)];set_species=[html_encode(pref.species_preview)]")
+	user << link("byond://?src=[REF(src)];set_species=[pref.species_preview]")
 
 /// This proc verifies if a sprite accessory can be put on a robolimb, checking its manufacturer.
 /datum/category_item/player_setup_item/general/body/proc/verify_robolimb_appropriate(datum/sprite_accessory/S)
