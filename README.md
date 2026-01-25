@@ -1,3 +1,7 @@
+Hello dear reader! This is Pegasus.
+We are at this stage mostly messing around with Auroracode with an intent to perhaps run silly little server.
+Please bear with us! Below is Aurorastation's readme, which we have not replaced at this time.
+
 # Aurorastation
 ![Aurora Logo](https://wiki.aurorastation.org/images/6/6b/Main_page_banner1.png)
 
