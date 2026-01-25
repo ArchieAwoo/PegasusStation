@@ -959,67 +959,7 @@ GLOBAL_LIST_INIT(valid_bloodtypes, list(
 /datum/category_item/player_setup_item/general/body/proc/SetSpecies(mob/user)
 	if(!pref.species_preview || !(pref.species_preview in GLOB.all_species))
 		pref.species_preview = SPECIES_HUMAN
-	var/datum/species/current_species = GLOB.all_species[pref.species_preview]
-	var/list/dat = list(
-		"<center><h2>[current_species.name] \[<a href='byond://?src=[REF(src)];show_species=1'>change</a>\]</h2></center><hr/>",
-		"<table padding='8px'>",
-		"<tr>",
-		"<td width = 400>[current_species.blurb]</td>",
-		"<td width = 200 align='center'>"
-	)
-	if(current_species.preview_icon)
-		var/icon/preview = icon(current_species.preview_icon, "")
-		preview.Scale(64, 64)	// Scale it here to stop it blurring.
-		send_rsc(usr, icon(icon = preview, icon_state = ""), "species_preview_[current_species.short_name].png")
-		dat += "<img src='species_preview_[current_species.short_name].png' width='64px' height='64px'><br/><br/>"
-	dat += "<b>Language:</b> [current_species.language]<br/>"
-	dat += "<small>"
-	if(current_species.spawn_flags & CAN_JOIN)
-		dat += "</br><b>Often present on human stations.</b>"
-	if(current_species.spawn_flags & IS_WHITELISTED)
-		dat += "</br><b>Whitelist restricted.</b>"
-	if(current_species.flags & NO_BLOOD)
-		dat += "</br><b>Does not have blood.</b>"
-	if(current_species.flags & NO_BREATHE)
-		dat += "</br><b>Does not breathe.</b>"
-	if(current_species.flags & NO_SCAN)
-		dat += "</br><b>Does not have DNA.</b>"
-	if(current_species.flags & NO_PAIN)
-		dat += "</br><b>Does not feel pain.</b>"
-	if(current_species.flags & NO_SLIP)
-		dat += "</br><b>Has excellent traction.</b>"
-	if(current_species.flags & NO_POISON)
-		dat += "</br><b>Immune to most poisons.</b>"
-	if(current_species.appearance_flags & HAS_SKIN_TONE)
-		dat += "</br><b>Has a variety of skin tones.</b>"
-	if(current_species.appearance_flags & HAS_SKIN_COLOR)
-		dat += "</br><b>Has a variety of skin colours.</b>"
-	if(current_species.appearance_flags & HAS_EYE_COLOR)
-		dat += "</br><b>Has a variety of eye colours.</b>"
-	if(current_species.flags & IS_PLANT)
-		dat += "</br><b>Has a plantlike physiology.</b>"
-	dat += "</small></td>"
-	dat += "</tr>"
-	dat += "</table><center><hr/>"
-
-	var/restricted = 0
-	if(GLOB.config.usealienwhitelist) //If we're using the whitelist, make sure to check it!
-		if(!(current_species.spawn_flags & CAN_JOIN))
-			restricted = 2
-		else if((current_species.spawn_flags & IS_WHITELISTED) && !is_alien_whitelisted(preference_mob(),current_species.name))
-			restricted = 1
-
-	if(restricted)
-		if(restricted == 1)
-			dat += SPAN_WARNING("<b>You cannot play as this species.</br><small>If you wish to be whitelisted, you can make an application post on <a href='byond://?src=[REF(user)];preference=open_whitelist_forum'>the forums</a>.</small></b></br>")
-		else if(restricted == 2)
-			dat += SPAN_WARNING("<b>You cannot play as this species.</br><small>This species is not available for play as a station race.</small></b></br>")
-	if(!restricted || check_rights(R_ADMIN, 0))
-		dat += "\[<a href='byond://?src=[REF(src)];set_species=[html_encode(pref.species_preview)]'>select</a>\]"
-	dat += "</center>"
-
-
-	user << browse(HTML_SKELETON(dat.Join()), "window=species;size=700x400")
+	user << link("byond://?src=[REF(src)];set_species=[pref.species_preview]")
 
 /// This proc verifies if a sprite accessory can be put on a robolimb, checking its manufacturer.
 /datum/category_item/player_setup_item/general/body/proc/verify_robolimb_appropriate(datum/sprite_accessory/S)
