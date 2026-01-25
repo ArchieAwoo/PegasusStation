@@ -22,13 +22,7 @@
 	primitive_form = SPECIES_MONKEY_SKRELL
 	unarmed_types = list(/datum/unarmed_attack/punch, /datum/unarmed_attack/palm, /datum/unarmed_attack/stomp, /datum/unarmed_attack/kick)
 
-	blurb = "Xiialt can be approximately translated to \"coastals\" or \"land-dwellers\". These Skrell are the \
-	biological cousins of the Axiori. They tend to be somewhat short, but the stout nature of the Xiialt \
-	helped them traverse the rough nature of their biome with bipedal movement. Due to this, their feet are \
-	somewhat bigger than those of an Axiori and their leg muscles are more defined. It is theorized that this \
-	helped early Xiialt outrun predators on land. Xiialt also tend to be much leaner; this is due to their \
-	slightly higher metabolic rate due to the abundant presence of food on the surface. While Xiialt are better \
-	adapted to live on land they are still able to breathe and see underwater; however, their swimming is not as agile."
+	blurb = "TBD"
 
 	num_alternate_languages = 3
 	language = LANGUAGE_SKRELLIAN
