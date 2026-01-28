@@ -1,11 +1,6 @@
 /datum/citizenship/nralakk
 	name = CITIZENSHIP_NRALAKK
-	description = "Home of the Skrell, a centralized union of solar systems run by councilors of different ranks and positions. The capital of the Federation is located at the city of \
-	Kal'lo on the core planet Nralakk IV, also known as Qerrbalak, within the Nralakk system. While the majority of Skrell live within the Nralakk Federation, a sizable portion live \
-	abroad. The quality of life within Federation is considered to be the best in the galaxy due to their technological advances, allowing Federation Citizens access to a quality of \
-	life almost unmatched anywhere else in the Spur. \
-	A rogue artificial intelligence, Glorsh-Omega, has traumatized this nation for centuries to come. The Federation is very wary of humanity, who has acquired AI technology \
-	after a Federation tech leak provided them with the research required to create their own AI, as well as allowing them to create IPCs."
+	description = "TBD"
 	consular_outfit = /obj/outfit/job/representative/consular/nralakk
 	assistant_outfit = /obj/outfit/job/diplomatic_aide/nralakk
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/nralakk

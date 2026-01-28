@@ -50,11 +50,7 @@
 /datum/species/tajaran/m_sai
 	name = SPECIES_TAJARA_MSAI
 	name_plural = "M'sai Tajara"
-	blurb = "The M'sai are a race of Tajara with slender lithe bodies and \
-	lightly covered fur which blends in with the snowy environments of Adhomai. \
-	They aren't as well-insulated against Adhomai's cold as their brethren. \
-	However, this gives them the benefit of being more agile. Hitorically, they often \
-	worked as hunters, later becoming warriors and soldiers as civilization developed."
+	blurb = "TBD"
 	species_height = HEIGHT_CLASS_AVERAGE
 
 	slowdown = -1.2 //As opposed to -1 for Base tajara
@@ -96,12 +92,7 @@
 /datum/species/tajaran/tesla_body
 	name = SPECIES_TAJARA_TESLA_BODY
 	name_plural = "Tesla Rejuvenation Suit Tajara"
-	blurb = "Created as part of the Tesla prosthetics program, the Tesla Rejuvenation Suit is a hulking suit that allows disabled Tajara to regain their vigor. \
-	Its users are surgically grafted in the machine; their limbs are replaced by large, industrial replacements; their organs are placed in a tank full of healing chemicals \
-	located inside their chest, and finally, a big tesla spine is installed. Only the head remains untouched. The suits are bulky and clumsy, restricting their wearers to jobs \
-	involving weight lifting and other menial tasks. Since this invention is still in its early stage, reports of it malfunctioning or causing pain to its user are not unheard off; \
-	however, the government is quick to claim that these are only subversive rumors. Because of extensive augmentation, Tajaran in these suits reports loss of sensations everywhere \
-	except the face. The Rejuvenation Suit is only granted to loyal Hadiist Tajara living in the People's Republic. Tajara wearing it are colloquially called \"steelsuits\"."
+	blurb = "TBD"
 
 	spawn_flags = IS_RESTRICTED
 	bodytype = BODYTYPE_TESLA_BODY

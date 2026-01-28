@@ -1,10 +1,6 @@
 /datum/citizenship/zora
 	name = CITIZENSHIP_ZORA
-	description = "Zo'ra, the largest and most powerful Hive, and also the first one discovered by Humanity following their Hive-ship 'Titan Prime.' Information gained through contact \
-	with Vaurca present in Tau Ceti has lead to unconfirmed projections putting their population in Vaurca space at 77 billion (17.1 million in known space). Zo'ra believe themselves to \
-	be the Alpha of the Vaurca and the face of their species. They make up the majority of the Vaurca present in Tau Ceti and human space.Zo'ra have cold relations with other Hives. In \
-	Tau Ceti, this has lead to confrontations between them and other Hives arriving in the system. The Zo'ra are the most politically developed Hive, recently helping in the funding of \
-	the Tau Ceti Foreign Legion, and making active progress to spread their influence."
+	description = "TBD"
 	consular_outfit = /obj/outfit/job/representative/consular/zora
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/zora
 	linked_citizenship = CITIZENSHIP_BIESEL
@@ -106,11 +102,7 @@
 
 /datum/citizenship/klax
 	name = CITIZENSHIP_KLAX
-	description = "The second Hive discovered by humanity,  Hiveship, Klo'zxera, appeared in the Skrellian system of Glorashi. \
-	K'lax is known as a client state of the Zo'ra, but since the Exodus from Sedantis they have struggled for political independence. \
-	Now parting their own ways, both Hives have developed differently.  the K'lax became the newest vassal of the Izweski Nation, and have largely settled in Tret. \
-	They maintain subtly warm, if terse relations with the Hegemony as a whole, and have committed to its terraforming agenda, being instrumental in the implementation of such a monumental undertaking. \
-	The K'lax are the most technologically developed Hive, and are leading the way in reconstructing the species' superior technology."
+	description = "TBD"
 	consular_outfit = /obj/outfit/job/representative/consular/klax
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/klax
 	linked_citizenship = CITIZENSHIP_IZWESKI
@@ -208,11 +200,7 @@
 
 /datum/citizenship/cthur
 	name = CITIZENSHIP_CTHUR
-	description = "They are the third Hive that has developed relationships with other sophonts of the Orion Spur. \
-	While their arrival was kept in secret by the Nralakk Federation, the revelation has reignited diplomatic disputes between K'lax and C'thur, with outright hostility met by the K'lax towards the C'thur. \
-	Unlike all other Hives, the C'thur are led by their original Hive Queen, who, with a council of three other Lesser Queens, leads the Hive in this new age. \
-	In this effort, the Hive has begun dealing with the multitude of governments and corporations of the galaxy, all under the auspices of their Skrellian saviors. \
-	The C'thur are the most economically developed Hive, having stakes in Einstein Engines and Zeng-Hu Pharmaceuticals."
+	description = "TBD"
 	consular_outfit = /obj/outfit/job/representative/consular/cthur
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/cthur
 	linked_citizenship = CITIZENSHIP_NRALAKK
@@ -310,9 +298,7 @@
 
 /datum/citizenship/liikenka
 	name = CITIZENSHIP_LIIKENKA
-	description = "A group of Punished C'thur residing in Phoenixport and on Mictlan, the majority of Lii'kenka opt to remain undercover as \
-	members of the C'thur brood in disguise, falsifying their Vaurca Office of Administrative Services documents in order to have fake Nralakk Federation citizenship."
-
+	description = "TBD"
 	job_species_blacklist = list(
 		"Consular Officer" = ALL_SPECIES,
 		"Diplomatic Aide" = ALL_SPECIES

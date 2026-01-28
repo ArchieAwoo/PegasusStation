@@ -1,9 +1,6 @@
 /datum/citizenship/tau_ceti
 	name = CITIZENSHIP_BIESEL
-	description = "The Republic of Biesel is an independent system within the Core of human space. It is heavily tied to the NanoTrasen corporation at nearly every level of government. \
-	It is one of the most populated systems in human space, a financial center, industrial powerhouse and one of the most prestigious systems in the galaxy. It is also very known for \
-	its large xeno population which enjoys various privileges compared to other space powers. With a very lax migration policy, virtually everyone is welcome to live here. However, \
-	unrest and gridlock undermine the government, and the aggressive attitude of the Sol Alliance against its former system has made many worried for the future of the Republic."
+	description =  "TBD"
 	consular_outfit = /obj/outfit/job/representative/consular/ceti
 	assistant_outfit = /obj/outfit/job/diplomatic_aide/ceti
 
@@ -92,11 +89,7 @@
 
 /datum/citizenship/sol_alliance
 	name = CITIZENSHIP_SOL
-	description = "Once considered a juggernaut in terms of cultural and political influence, the Alliance of Sovereign Solarian Nations (ASSN), commonly referred to as the Sol Alliance, has greatly declined in the wake of the phoron crisis and the Solarian collapse of 2462. \
-	Once the spur's largest interstellar power, in recent times the Sol Alliance has retreated to its wealthy so-called Jewel Worlds and inner colonies, with its reach barely extending to a few select middle colonies. \
-	However, it still controls the largest human military in the entire spur, and their cooperation with Einstein Engines and the Nralakk Federation has contributed to it gradually regaining some of its pre-collapse influence and power. \
-	Presently ruled by a military junta that is gradually giving way to civilian control, the Alliance is also generally xenophobic, and most non-humans find themselves discriminated against in Solarian territory. \
-	Though much of its former possessions are now occupied by warlord statelets and other interstellar powers, the Alliance still maintains a revanchist outlook, refusing to relinquish its claims to its lost territories."
+	description =  "TBD"
 	consular_outfit = /obj/outfit/job/representative/consular/sol
 	assistant_outfit = /obj/outfit/job/diplomatic_aide/sol
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/sol
@@ -212,10 +205,7 @@
 
 /datum/citizenship/sol_alliance/eridani
 	name = CITIZENSHIP_ERIDANI
-	description = "Eridani, or the Eridani Corporate Federation, is a dystopian oligarchic republic in the Epsilon Eridani system, dominated entirely by a council of mega-corporations \
-	that seek profit and expansion at any cost. It is characterized by a stark class divide, with citizens falling into one into two groups - pristine, inoffensive and rich Corporates, \
-	and poor, yet free-willed and provocative Dregs. The Federation is controlled by several megacorporations, and although NanoTrasen is not one of them, it is a common former \
-	workplace of various contractors on-board."
+	description =  "TBD"
 
 	job_species_blacklist = list(
 		"Consular Officer" = ALL_SPECIES,
@@ -224,9 +214,7 @@
 
 /datum/citizenship/coalition
 	name = CITIZENSHIP_COALITION
-	description = "The Coalition of Colonies is a loose confederation of united \"entities\" within the human frontier. These entities range \
-	from whole colonial systems to travelling super ships to mining and farming outposts. Most communities here are, although not as developed as many galactic powers, very \
-	tightly-knit. Almost anything and anyone can be found in these wild, mostly uncharted lands. "
+	description =  "TBD"
 	demonym = "frontiersman"
 	consular_outfit = /obj/outfit/job/representative/consular/coalition
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/coalition
@@ -282,10 +270,7 @@
 
 /datum/citizenship/elyra
 	name = CITIZENSHIP_ELYRA
-	description = "The Republic of Elyra, or its more official name, The Serene Republic of Elyra, was formed during a large scale colonization and emigration effort from south \
-	western asia and northern africa during the early years of space colonization from Pre-Alliance Earth. It is made up of multiple star systems. It's national motto \
-	is \"For Greatness We Strive\". It's official language is Tau Ceti Basic, though several old-earth languages cling to life in small enclaves, such as arabic, persian, and farsi. \
-	The Republic has mixed relations with NanoTrasen, due to their own possession of phoron."
+	description =  "TBD"
 	demonym = "elyran"
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/elyra
 
@@ -298,13 +283,7 @@
 
 /datum/citizenship/elyran_ncp
 	name = CITIZENSHIP_ELYRA_NCP
-	description = "\"Non-Citizen Persons,\" (NCPs) as they are officially called, make-up approximately one-third of the total population of the Republic Elyra. \
-					Most of these people are poor migrant labourers from the less wealthy planets in the Coalition of Colonies or the stateless Human Frontier. \
-					They are often unskilled and undereducated, coming to Elyra in order to make enough money to send back home as remittances to their families, \
-					or alternatively to save up enough money to return to their homeworlds with enough cash to make their lives there. their lack of citizenship \
-					shuts them out of the Elyran public health and education systems, and grossly restricts the amount of influences they have on Elyran society, \
-					having little to no legal representation in most courts of law either. They cannot vote and are not provided with any of the other benefits \
-					that the average Elyran citizens enjoys."
+	description =  "TBD"
 	demonym = "elyran non-citizen person"
 	consular_outfit = null
 	job_species_blacklist = list(
@@ -337,9 +316,7 @@
 
 /datum/citizenship/dominia
 	name = CITIZENSHIP_DOMINIA
-	description = "A heavily religious absolute monarchy with its capital, Nova Luxembourg, on the planet of Moroz in the Mira Sancta system. This autocratic state is ruled by \
-	His Imperial Majesty Boleslaw Keeser. The Empire of Dominia was proclaimed in 2385 by then-Emperor Godwin Keeser, unifying a colony which had been isolated for hundreds of years. \
-	Imperial society is dominated by the Great and Minor Houses under the Emperor and is very socio-economically stratified due to the so-called blood debt, known as the Mor'iz'al."
+	description =  "TBD"
 
 	consular_outfit = /obj/outfit/job/representative/consular/dominia
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/dominia
