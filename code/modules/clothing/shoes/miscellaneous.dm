@@ -112,3 +112,13 @@
 	desc = "A set of bronze leg armor, fitted for an Unathi and corroded by age. Those familiar with Moghresian archaeology may recognize these as being of Sinta'Mador design."
 	icon_state = "mador_boots"
 	item_state = "mador_boots"
+
+/obj/item/clothing/shoes/galoshes/clown_shoes
+	desc = "The prankster's standard-issue clowning shoes. Damn they're huge!"
+	name = "clown shoes"
+	icon = 'icons/obj/item/clothing/shoes/miscellaneous.dmi'
+	icon_state = "clown_shoes"
+	item_state = "clown_shoes"
+	slowdown = 1
+	species_restricted = null
+
