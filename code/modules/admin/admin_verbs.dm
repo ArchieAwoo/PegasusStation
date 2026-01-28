@@ -157,7 +157,8 @@ GLOBAL_LIST_INIT(admin_verbs_spawn, list(
 	/datum/admins/proc/spawn_atom,		// allows us to spawn instances,
 	/client/proc/cmd_admin_delete,		// delete an instance/object/mob/etc,
 	/client/proc/respawn_character,
-	/client/proc/spawn_chemdisp_cartridge
+	/client/proc/spawn_chemdisp_cartridge,
+	/client/proc/spawn_clown
 	))
 
 GLOBAL_LIST_INIT(admin_verbs_server, list(

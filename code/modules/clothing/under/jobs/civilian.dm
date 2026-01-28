@@ -330,3 +330,10 @@
 	icon_state = "quickeburger_jumpsuit"
 	item_state = "quickeburger_jumpsuit"
 	contained_sprite = TRUE
+
+/obj/item/clothing/under/rank/clown
+	name = "clown suit"
+	desc = "<i>'HONK!'</i>"
+	icon_state = "clown"
+	item_state = "clown"
+	worn_state = "clown"

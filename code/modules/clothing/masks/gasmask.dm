@@ -67,6 +67,12 @@
 	item_state = "swat"
 	siemens_coefficient = 0.7
 
+/obj/item/clothing/mask/gas/clown_hat
+	name = "clown wig and mask"
+	desc = "A true prankster's facial attire. A clown is incomplete without their wig and mask."
+	icon_state = "clown"
+	item_state = "clown"
+
 /obj/item/clothing/mask/gas/mime
 	name = "mime mask"
 	desc = "The traditional mime's mask. It has an eerie facial posture."

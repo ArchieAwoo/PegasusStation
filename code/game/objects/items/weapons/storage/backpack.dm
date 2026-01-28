@@ -1117,3 +1117,9 @@
 	icon_state = "kala_backpack"
 	item_state = "kala_backpack"
 	contained_sprite = TRUE
+
+/obj/item/storage/backpack/clown
+	name = "Giggles von Honkerton"
+	desc = "It's a backpack made by Honk! Co."
+	icon_state = "clownpack"
+	item_state = "clownpack"
